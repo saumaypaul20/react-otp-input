@@ -31,6 +31,6 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'demo'),
     port: 8080,
-    stats: 'minimal',
+    compress: true,
   },
 };
